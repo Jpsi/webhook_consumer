@@ -5,3 +5,19 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Event.create(
+  [
+    {name: 'in-store-transaction'},
+    {name: 'online-transaction'},
+    {name: 'atm-withdrawal'}
+  ]
+)
+
+Provider.create(
+  [
+    {name: 'ikigai'},
+    {name: 'bank-1'},
+    {name: 'bank-2'}
+  ]
+)
