@@ -42,11 +42,12 @@ A basic Rails app that consumes webhooks with transaction data
 
      Replace the mysql username and password and save the file.
 
-   - Create and migrate the databases defined in Rails:
+   - Create, migrate, and seed the databases defined in Rails:
 
      ```
      [webhook_consumer]$ rails db:create
      [webhook_consumer]$ rails db:migrate
+     [webhook_consumer]$ rails db:seed
      ```
 
 1. Check app is running as expected.
